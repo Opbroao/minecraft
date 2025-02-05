@@ -1,8 +1,4 @@
-echo " This Is Minecraft made by skimi"
-apt update 
-apt install wget -y
-apt install curl -y
-apt install git -y
-git clone https://github.com/theboys11177/mcserver.git
-cd mcserver 
-bash start.sh 
+echo INSTALLING PTERODACTYL PANEL.... MADE BY SKIMI !
+apt update
+apt upgrade -y 
+bash <(curl -s https://pterodactyl-installer.se)
